@@ -54,3 +54,245 @@ Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127
 Processing by PagesController#home as HTML
   Rendered pages/home.html.erb within layouts/application (0.5ms)
 Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:45:20 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 719ms (Views: 638.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:52:10 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 696ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-sprockets.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Twitter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2437616158897938771_44261840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (208.3ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (35.9ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (8.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (318.3ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:53:20 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap.
+Load paths:
+  /home/ubuntu/workspace/app/assets/images
+  /home/ubuntu/workspace/app/assets/javascripts
+  /home/ubuntu/workspace/app/assets/stylesheets
+  /home/ubuntu/workspace/vendor/assets/javascripts
+  /home/ubuntu/workspace/vendor/assets/stylesheets
+  /usr/local/rvm/gems/ruby-2.3.4/gems/jquery-rails-4.3.3/vendor/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/coffee-rails-4.1.1/lib/assets/javascripts
+  /usr/local/rvm/gems/ruby-2.3.4/gems/turbolinks-source-5.2.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Twitter</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/application.scss:15
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__2437616158897938771_44261840'
+
+
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /usr/local/rvm/gems/ruby-2.3.4/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (36.9ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 01:55:17 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 5081ms (Views: 5069.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-26187084cd859e7fe29b423bbe5dd3c1e80de0029378b46c7801849788c867c2.css?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/affix.self-5333fddfa90a7725cdc9fb8513c785f72d5a73587a787ef154c7d299b034b5f6.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/carousel.self-2b616da53c44931503d04b63172811aacef63745d7ebe03c539df27225ed8dba.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/button.self-4030b446249614a23334522fe973beecc3571f1ad2269b47cdd15dd5c3f95105.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/collapse.self-d902bceafc627389b27e56a9cf6ff679d4d3a9707253f64e51336877d78c750a.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/alert.self-1988e4dd4c1a142d70141210a646431bf911756c6d8ef7b866c0608b9cb1d802.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/dropdown.self-76dbf9cdb7fbd6fec67b129abdddd64090b56cc475ba9638894b981c39846263.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/modal.self-02f36579b29d2496dda920a82c63b32bac24ce29ba351d0ab7970caf0178aa04.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/scrollspy.self-92c15826f84c5f9b079f1bebc777d0978f5aa4ffc8676b546b359799b0bc1dfe.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tab.self-943d113f140dfdb92c8713cdc40fce01488bd1bd443ed20fe5cc43c79c1f55ad.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/transition.self-be7eae6669510927e31586d851a01eee18c527108dd924eaed1d3b6492ed0040.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/tooltip.self-2609cdb00a0204a33b355f29cd988395a3fd8cfd2c78f70353e62e891a0d18c3.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap/popover.self-ae735977ad00be0cc78ade00a8b5556aa6c072493c4bd07765b93a102582ae29.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7862a8a8b42407b4741a1adeeea35f0d13ddc4f702ec532adb0674491d296495.js?body=1" for 104.230.125.65 at 2019-01-08 01:55:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:55:34 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:55:38 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 54ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:58:35 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (1.3ms)
+Completed 200 OK in 60ms (Views: 59.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 104.230.125.65 at 2019-01-08 01:58:37 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 65.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 01:59:01 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.1ms)
+Completed 200 OK in 90ms (Views: 88.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:00:48 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (3.2ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 404ms (Views: 392.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:05:31 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.8ms)
+Completed 200 OK in 110ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:07:18 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:09:53 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (1.4ms)
+Completed 200 OK in 96ms (Views: 95.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:11:22 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.6ms)
+Completed 200 OK in 59ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:11:41 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 62ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:12:03 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 104.230.125.65 at 2019-01-08 02:14:21 +0000
+Cannot render console from 104.230.125.65! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+  Rendered layouts/_nav.html.erb (0.5ms)
+Completed 200 OK in 58ms (Views: 57.1ms | ActiveRecord: 0.0ms)
